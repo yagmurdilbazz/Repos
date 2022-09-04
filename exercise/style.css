@@ -1,0 +1,18 @@
+.oddnumbers{
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.oddnumbers_24{
+    font-size: 24px;
+}
+#evenumber{
+    color: blue;
+    font-size: 36px;
+}
+
+#Number4Id{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
