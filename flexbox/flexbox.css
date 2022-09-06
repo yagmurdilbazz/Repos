@@ -1,0 +1,17 @@
+.flex-container{
+    display: flex;
+}
+.flex-container div{
+    /* hepsini seçiyor */
+    background: peachpuff;
+    border: 4px solid salmon;
+    height: 50px;
+    flex: 1 1 0%;
+
+ /* hangi boyda olursa olsun felixible oluyor. bozulmuyor. */
+}
+
+.flex-container .box2{
+    flex:2 1 0%;
+}
+/* sadece 2inci kısım 2xle genişliyorß */

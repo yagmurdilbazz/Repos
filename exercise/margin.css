@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+  }
+.card-body div{
+    background-color: lightblue;
+    /* height: auto; */
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    
+}
+.card{ 
+    background-color: rgb(45, 45, 198);
+    width: 0 auto;
+    margin: 16px auto;
+    padding-left: 10px;
+   
+
+} 
+.cardtext{
+    background-color: rgb(45, 45, 198);
+    margin-bottom: 8px;
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 0;
+  
+}
+
+.parag{
+    width: 0 auto;
+    margin: 8px;
+    background-color: rgb(45, 45, 198);
+    padding: 8px;
+
+    
+}
+
+.button-container{
+    background-color: rgb(45, 45, 198);
+    text-align: center;
+    padding: 8px;
+    width: 0 auto;
+    padding-left: 10px;
+}
+
+.bigbutton{
+    border: 1px solid green;
+    display: block;
+    margin: 0 auto;
+    padding: 8px 24px;
+}
