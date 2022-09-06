@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet1" href="group_selectors.css">
+    <title>Group Selectors</title>
+    <link rel="stylesheet" href="group_selectors.css">
 </head>
 <body>
-    
+  <button class="FirstButton">First Button</button>
+  <button class="SecondButton">Second Button</button>  
+
+  <div>
+  <img class="avatar proportioned" src="image1.jpeg" alt="First Image">
+  <img class="avatar distorted" src="image2.jpeg" alt="Second Image">
+  </div>
+
+  <div>
+    <img class="original propotioned" src="image1.jpeg" alt="First Image">
+    <img class="original distorted" src="image2.jpeg" alt="Second Image">
+  </div>
+  
+  <div>
+    <p class="descendant">This should be styled</p>
+    <p>This should be unstyled</p>
+    <p>This should be unstyled</p>
+    <p class="descendant">This should be styled</p>
+    <p class="descendant">This should be styled</p>
+
+  </div>
+
+
 </body>
 </html>

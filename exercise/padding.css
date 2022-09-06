@@ -1,0 +1,32 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+
+.box1{
+    background-color: pink;
+    border: 3px solid blueviolet;
+    padding: 32px;
+    margin: 12px;
+   
+
+}
+.box2{
+    text-align: right;
+    background-color: green;
+    color: bisque;
+    border: 5px solid beige;
+    margin-bottom: 48px;
+
+}
+.box3{
+    padding: 32px;
+    box-align: right;
+    margin-left: auto;
+    width: 200px;
+    text-align: left;
+    background-color: rgb(151, 181, 151);
+    color: rgb(74, 44, 7);
+    border: 3px solid bisque;
+}

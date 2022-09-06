@@ -1,0 +1,32 @@
+.FirstButton{
+    background-color: black;
+    color: white;
+}
+.SecondButton{
+    background-color: yellow;
+}
+
+/* Eğer ortak özellikleri olan şeyleri gruplamak istiyorsak, virgül ile aynı satırda yazabiliriz.*/ 
+.FirstButton,
+.SecondButton {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+    
+}
+
+.avatar.proportioned{
+    height: auto;
+    width: 300px;
+}
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}
+
+.descendant{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center; 
+}
+
